@@ -5,6 +5,8 @@ Tarefas:
 Crie uma função soma que receba dois números como parâmetros.
 Exiba o resultado no console ou em um alert.
 
+
+
 2. Verificação de Par ou Ímpar
 Descrição:
 Peça ao usuário um número e diga se ele é par ou ímpar.
@@ -114,3 +116,144 @@ Tarefas:
 Use um loop para gerar os números pares.
 Adicione os números a um array e exiba-o no console.
 */
+
+// Ex 01
+
+
+// let num1 = Number(prompt("Digite o primeiro número:"));
+// let num2 = Number(prompt("Digite o segundo número:"));
+// alert("A soma é: " + (num1 + num2));
+
+
+
+// Ex 02 
+
+// function imparOuPar (numero) {
+//     if(numero % 2 === 0) {
+//         console.log("O número é par");
+//     } else {
+//         console.log("O número é impar");
+//     }
+// }
+
+// const numero = Number(prompt("Digite um numero"));
+
+// imparOuPar(numero);
+
+
+
+
+
+// Ex 03
+
+// for(let i =1; i <=10; i++) {
+//     console.log(i);
+// }
+
+// let i = 1;
+// while (i <= 10) {
+//     console.log(i);
+//     i++;
+// }
+
+
+
+// Ex 04
+
+// let num = Number(prompt("Digite um numero para ver sua tabuada"));
+
+// for(let i =1; i <=10; i++){
+//     console.log(`${num} x ${i} = ${num * 1}`);
+// }
+
+
+
+// Ex 05
+// const number = [3, 7, 2, 9, 5];
+// let maior = number[0];
+
+// for(let i =1; i < number.length; i++){
+//     if(number[i] > maior) {
+//         maior = number[i];
+//     }
+// }
+// console.log(`O maior número é: ${maior}`);
+
+
+// Ex 06
+
+// function inverter (palavra) {
+//     return palavra.split('').reverse;
+// }
+
+// const palavra = prompt("Digite uma palavra");
+
+// console.log(`A palavra invertida é ${inverter(palavra)}`);
+
+
+
+// Ex 07
+
+// function inverterPalavra(palavra) {
+//     return palavra.split('').reverse().join('');
+// }
+
+
+// const palavra = prompt("Digite uma palavra:");
+
+
+// console.log(`A palavra invertida é: ${inverterPalavra(palavra)}`);
+
+
+// Ex 08
+
+
+
+
+
+
+
+// Ex 09
+
+// function multiplicar(numero) {
+//     let resultado = 1;
+
+//     for(let i =1; i <= numero; i++) {
+//         resultado *= i;
+//     }
+
+//     console.log(`O fatorial de ${numero} é ${resultado}`);
+// }
+
+// let numero = parseInt(prompt("Informe um numero para calcular o fatorial"));
+// multiplicar(numero);
+
+
+// Ex 10
+
+
+// function palidromo(palavra) {
+//     palavra.split('').reverse().join('');
+//     if(palavra)
+// }   
+
+
+// let palavra = prompt("Digite uma palavra");
+
+
+// EX 15
+
+let numerosPares = [];
+
+
+for (let i = 1; i <= 20; i++) {
+
+    if (i % 2 === 0) {
+        numerosPares.push(i);
+    }
+}
+
+console.log(numerosPares);
+
+
+
